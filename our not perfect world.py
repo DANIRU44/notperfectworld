@@ -2,7 +2,7 @@ print("здесь мы можете покидать монетку и убед�
 attempt = int(input("сколько раз хотете совршить серию из 100 подкидываний?"))
 import random
 c=[]
-for r in range(attempt):
+for r in range(attempt+1):
     b=0
     for i in range (101):
         a =random.randint(0,1)
